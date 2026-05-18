@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ورود / ثبت‌نام — مانلی شاپ</title>
+    <meta
+      name="description"
+      content="ورود به حساب خود یا ایجاد حساب جدید در مانلی شاپ"
+    />
+    <meta name="theme-color" content="#2C9B8A" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://c7n.ir/fonts/sahel/load.css" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <!-- TOPBAR -->
+    <div class="topbar" aria-label="اطلاعیه‌ها">
+      <div class="topbar-inner">
+        <span>🏭 تأمین مستقیم از کارخانه</span><span class="sep">|</span>
+        <span>✅ تضمین ۱۰۰٪ اصالت کالا</span><span class="sep">|</span>
+        <span>🚚 ارسال رایگان بالای ۳۵۰ هزار تومان</span
+        ><span class="sep">|</span> <span>🔄 ۷ روز ضمانت بازگشت وجه</span
+        ><span class="sep">|</span> <span>🏭 تأمین مستقیم از کارخانه</span
+        ><span class="sep">|</span> <span>✅ تضمین ۱۰۰٪ اصالت کالا</span
+        ><span class="sep">|</span>
+        <span>🚚 ارسال رایگان بالای ۳۵۰ هزار تومان</span
+        ><span class="sep">|</span> <span>🔄 ۷ روز ضمانت بازگشت وجه</span
+        ><span class="sep">|</span>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <a href="index.html" class="logo" aria-label="مانلی شاپ - صفحه اصلی">
+        <div class="logo-icon" aria-hidden="true">💄</div>
+        <div class="logo-text">
+          <strong>مانلی شاپ</strong>
+          <small>مرجع رسمی بهداشتی و آرایشی</small>
+        </div>
+      </a>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="auth-main">
+      <div class="auth-container">
+        <!-- AUTH FORM -->
+        <div class="auth-box">
+          <!-- LOGIN FORM -->
+          <form id="login-form" class="auth-form active" novalidate>
+            <div class="auth-header">
+              <h1>ورود به حساب</h1>
+              <p>
+                اگر حساب ندارید می‌توانید
+                <a href="#" class="toggle-auth">ثبت‌نام</a> کنید
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="login-email">ایمیل یا شماره موبایل</label>
+              <input
+                type="text"
+                id="login-email"
+                name="email"
+                placeholder="example@email.com یا ۰۹۱۲۳۴۵۶۷۸۹"
+                required
+              />
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="login-password">رمز عبور</label>
+              <div class="password-input">
+                <input
+                  type="password"
+                  id="login-password"
+                  name="password"
+                  placeholder="حداقل ۶ کاراکتر"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  aria-label="نمایش/پنهان کردن رمز"
+                >
+                  👁️
+                </button>
+              </div>
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-remember">
+              <input type="checkbox" id="remember-me" name="remember" />
+              <label for="remember-me">مرا به خاطر بسپار</label>
+              <a href="#" class="forgot-link">فراموشی رمز عبور؟</a>
+            </div>
+
+            <button type="submit" class="btn-submit">ورود</button>
+
+            <div class="form-divider">
+              <span>یا</span>
+            </div>
+
+            <button type="button" class="btn-social" aria-label="ورود با گوگل">
+              <span>🔍</span> ورود با گوگل
+            </button>
+            <button
+              type="button"
+              class="btn-social"
+              aria-label="ورود با تلگرام"
+            >
+              <span>✈️</span> ورود با تلگرام
+            </button>
+
+            <div class="form-footer">
+              <p>
+                با ورود، شما <a href="#">شرایط استفاده</a> و
+                <a href="#">سیاست حریم خصوصی</a> را پذیرفته‌اید.
+              </p>
+            </div>
+          </form>
+
+          <!-- REGISTER FORM -->
+          <form id="register-form" class="auth-form" novalidate>
+            <div class="auth-header">
+              <h1>ایجاد حساب جدید</h1>
+              <p>
+                اگر قبلاً حساب ساختید می‌توانید
+                <a href="#" class="toggle-auth">وارد</a> شوید
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="register-name">نام کامل</label>
+              <input
+                type="text"
+                id="register-name"
+                name="fullname"
+                placeholder="نام و نام خانوادگی"
+                required
+              />
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="register-email">ایمیل</label>
+              <input
+                type="email"
+                id="register-email"
+                name="email"
+                placeholder="example@email.com"
+                required
+              />
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="register-phone">شماره موبایل</label>
+              <input
+                type="tel"
+                id="register-phone"
+                name="phone"
+                placeholder="۰۹۱۲۳۴۵۶۷۸۹"
+                required
+              />
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="register-password">رمز عبور</label>
+              <div class="password-input">
+                <input
+                  type="password"
+                  id="register-password"
+                  name="password"
+                  placeholder="حداقل ۶ کاراکتر"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  aria-label="نمایش/پنهان کردن رمز"
+                >
+                  👁️
+                </button>
+              </div>
+              <span class="error-msg"></span>
+              <div class="password-strength">
+                <div class="strength-bar">
+                  <div class="strength-fill"></div>
+                </div>
+                <span class="strength-text">قوت رمز: ضعیف</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="register-confirm">تأیید رمز عبور</label>
+              <div class="password-input">
+                <input
+                  type="password"
+                  id="register-confirm"
+                  name="confirm"
+                  placeholder="رمز عبور را دوباره وارد کنید"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  aria-label="نمایش/پنهان کردن رمز"
+                >
+                  👁️
+                </button>
+              </div>
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms"
+                >من <a href="#">شرایط استفاده</a> و
+                <a href="#">سیاست حریم خصوصی</a> را می‌پذیرم</label
+              >
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="newsletter" name="newsletter" />
+              <label for="newsletter"
+                >مرا برای خبرنامه و پیشنهادهای ویژه مشترک کنید</label
+              >
+            </div>
+
+            <button type="submit" class="btn-submit">ثبت‌نام</button>
+
+            <div class="form-footer">
+              <p>
+                با ثبت‌نام، شما <a href="#">شرایط استفاده</a> و
+                <a href="#">سیاست حریم خصوصی</a> را پذیرفته‌اید.
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <!-- AUTH SIDEBAR -->
+        <div class="auth-sidebar">
+          <div class="auth-benefits">
+            <h2>مزایای عضویت در مانلی شاپ</h2>
+            <ul class="benefits-list">
+              <li>
+                <span class="benefit-icon">🎁</span>
+                <div>
+                  <strong>تخفیف‌های ویژه</strong>
+                  <span>فقط برای اعضای ثبت‌شده</span>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">⭐</span>
+                <div>
+                  <strong>امتیازات و جوایز</strong>
+                  <span>هر خرید امتیاز می‌دهد</span>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">📦</span>
+                <div>
+                  <strong>پیگیری سفارشات</strong>
+                  <span>دقیق‌ترین اطلاعات ارسال</span>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">👑</span>
+                <div>
+                  <strong>عضویت VIP</strong>
+                  <span>دسترسی به محصولات ویژه</span>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">💬</span>
+                <div>
+                  <strong>مشاوره رایگان</strong>
+                  <span>پاسخ به سوالات شما</span>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">🔒</span>
+                <div>
+                  <strong>نیاز محفوظ</strong>
+                  <span>انکریپشن تکاملی</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="auth-stats">
+            <div class="stat-item">
+              <strong>۱۲۰,۰۰۰+</strong>
+              <span>مشتری راضی</span>
+            </div>
+            <div class="stat-item">
+              <strong>۲,۰۰۰+</strong>
+              <span>محصول معتبر</span>
+            </div>
+            <div class="stat-item">
+              <strong>۹۸٪</strong>
+              <span>امتیاز رضایت</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TOAST CONTAINER -->
+    <div class="toast-container" role="status" aria-live="polite"></div>
+
+    <script src="auth.js"></script>
+  </body>
+</html>

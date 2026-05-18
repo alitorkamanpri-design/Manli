@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════
    بارگذاری فونت ساحل — تنها فونت مجاز پروژه
    ═══════════════════════════════════════════ */
-@import url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.css');
+@import url("https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.css");
 
 /* ═══════════════════════════════════════════
    متغیرهای پایه طراحی — تمام رنگ‌ها اینجا تعریف می‌شوند
@@ -11,69 +11,69 @@
   /* ═══════════════════════════════════════
      رنگ‌های اصلی — پالت مانلی شاپ
      ═══════════════════════════════════════ */
-  --color-primary: #1A1A2E;
-  --color-secondary: #16213E;
-  --color-accent: #0F3460;
-  --color-highlight: #E94560;
+  --color-primary: #1a1a2e;
+  --color-secondary: #16213e;
+  --color-accent: #0f3460;
+  --color-highlight: #e94560;
 
   /* ═══════════════════════════════════════
      رنگ‌های برند مانلی
      ═══════════════════════════════════════ */
-  --color-rose: #E8637A;
-  --color-rose-hover: #D44D65;
-  --color-rose-light: #F5A0B0;
-  --color-rose-pale: #FDE8EC;
-  --color-teal: #2C9B8A;
-  --color-teal-hover: #247A6C;
-  --color-teal-light: #4DBDAD;
-  --color-teal-pale: #E0F5F2;
-  --color-gold: #C9A84C;
-  --color-gold-light: #F0D080;
-  --color-gold-pale: #FFF8E7;
+  --color-rose: #e8637a;
+  --color-rose-hover: #d44d65;
+  --color-rose-light: #f5a0b0;
+  --color-rose-pale: #fde8ec;
+  --color-teal: #2c9b8a;
+  --color-teal-hover: #247a6c;
+  --color-teal-light: #4dbdad;
+  --color-teal-pale: #e0f5f2;
+  --color-gold: #c9a84c;
+  --color-gold-light: #f0d080;
+  --color-gold-pale: #fff8e7;
 
   /* ═══════════════════════════════════════
      رنگ‌های متن
      ═══════════════════════════════════════ */
-  --color-text-main: #2D2D2D;
-  --color-text-light: #6B7280;
-  --color-text-white: #FFFFFF;
-  --color-text-muted: #9CA3AF;
-  --color-text-dark: #1A1A2E;
+  --color-text-main: #2d2d2d;
+  --color-text-light: #6b7280;
+  --color-text-white: #ffffff;
+  --color-text-muted: #9ca3af;
+  --color-text-dark: #1a1a2e;
 
   /* ═══════════════════════════════════════
      رنگ‌های پس‌زمینه
      ═══════════════════════════════════════ */
-  --color-bg-main: #F8FAFC;
-  --color-bg-white: #FFFFFF;
-  --color-bg-section: #F1F5F9;
+  --color-bg-main: #f8fafc;
+  --color-bg-white: #ffffff;
+  --color-bg-section: #f1f5f9;
   --color-bg-dark: #111827;
-  --color-bg-card: #FFFFFF;
-  --color-bg-sidebar: #FFFFFF;
-  --color-bg-hover: #F8FAFC;
+  --color-bg-card: #ffffff;
+  --color-bg-sidebar: #ffffff;
+  --color-bg-hover: #f8fafc;
 
   /* ═══════════════════════════════════════
      رنگ‌های وضعیت
      ═══════════════════════════════════════ */
-  --color-success: #10B981;
-  --color-success-light: #D1FAE5;
-  --color-warning: #F59E0B;
-  --color-warning-light: #FEF3C7;
-  --color-error: #EF4444;
-  --color-error-light: #FEE2E2;
-  --color-info: #3B82F6;
-  --color-info-light: #DBEAFE;
+  --color-success: #10b981;
+  --color-success-light: #d1fae5;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+  --color-error: #ef4444;
+  --color-error-light: #fee2e2;
+  --color-info: #3b82f6;
+  --color-info-light: #dbeafe;
 
   /* ═══════════════════════════════════════
      رنگ‌های مرزی
      ═══════════════════════════════════════ */
-  --color-border: #E2E8F0;
-  --color-border-light: #F1F5F9;
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
   --color-border-focus: var(--color-teal);
 
   /* ═══════════════════════════════════════
      متغیرهای تایپوگرافی
      ═══════════════════════════════════════ */
-  --font-base: 'Sahel', sans-serif;
+  --font-base: "Sahel", sans-serif;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
@@ -107,9 +107,12 @@
      سایه‌ها
      ═══════════════════════════════════════ */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-md:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --shadow-sidebar: 4px 0 24px rgba(0, 0, 0, 0.08);
 
   /* ═══════════════════════════════════════
@@ -131,7 +134,9 @@
 /* ═══════════════════════════════════════════
    ریست پایه
    ═══════════════════════════════════════════ */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -147,9 +152,10 @@ body {
   background: var(--color-bg-main);
   color: var(--color-text-main);
   line-height: 1.6;
-   overflow-x: hidden; 
+   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%; !important;
 }
 
 a {
@@ -221,7 +227,11 @@ ul {
 .sidebar-header .logo-icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, var(--color-rose), var(--color-rose-light));
+  background: linear-gradient(
+    135deg,
+    var(--color-rose),
+    var(--color-rose-light)
+  );
   border-radius: var(--border-radius-md);
   display: flex;
   align-items: center;
@@ -321,13 +331,13 @@ ul {
 }
 
 .nav-link.active {
-  background: linear-gradient(135deg, var(--color-teal-pale), #C8EDE8);
+  background: linear-gradient(135deg, var(--color-teal-pale), #c8ede8);
   color: var(--color-teal);
   font-weight: 700;
 }
 
 .nav-link.active::before {
-  content: '';
+  content: "";
   position: absolute;
   right: -var(--spacing-md);
   top: 50%;
@@ -385,7 +395,7 @@ ul {
 .admin-avatar {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--color-teal-pale), #C8EDE8);
+  background: linear-gradient(135deg, var(--color-teal-pale), #c8ede8);
   border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
@@ -599,7 +609,7 @@ ul {
 .header-avatar {
   width: 36px;
   height: 36px;
-  background: linear-gradient(135deg, var(--color-teal-pale), #C8EDE8);
+  background: linear-gradient(135deg, var(--color-teal-pale), #c8ede8);
   border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
@@ -626,6 +636,7 @@ ul {
   flex: 1;
   padding: var(--spacing-xl);
   max-width: var(--container-max);
+  margin: 0 auto;
 }
 
 /* ═══════════════════════════════════════════
@@ -658,7 +669,7 @@ ul {
 }
 
 .kpi-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -667,10 +678,22 @@ ul {
   border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
 }
 
-.kpi-card:nth-child(1)::before { background: linear-gradient(90deg, var(--color-teal), var(--color-teal-light)); }
-.kpi-card:nth-child(2)::before { background: linear-gradient(90deg, var(--color-info), #60A5FA); }
-.kpi-card:nth-child(3)::before { background: linear-gradient(90deg, var(--color-accent), #3B82F6); }
-.kpi-card:nth-child(4)::before { background: linear-gradient(90deg, var(--color-warning), #FBBF24); }
+.kpi-card:nth-child(1)::before {
+  background: linear-gradient(
+    90deg,
+    var(--color-teal),
+    var(--color-teal-light)
+  );
+}
+.kpi-card:nth-child(2)::before {
+  background: linear-gradient(90deg, var(--color-info), #60a5fa);
+}
+.kpi-card:nth-child(3)::before {
+  background: linear-gradient(90deg, var(--color-accent), #3b82f6);
+}
+.kpi-card:nth-child(4)::before {
+  background: linear-gradient(90deg, var(--color-warning), #fbbf24);
+}
 
 .kpi-header {
   display: flex;
@@ -689,10 +712,18 @@ ul {
   font-size: 24px;
 }
 
-.kpi-icon.revenue { background: var(--color-teal-pale); }
-.kpi-icon.orders { background: var(--color-info-light); }
-.kpi-icon.users { background: linear-gradient(135deg, #EEF2FF, #E0E7FF); }
-.kpi-icon.products { background: var(--color-warning-light); }
+.kpi-icon.revenue {
+  background: var(--color-teal-pale);
+}
+.kpi-icon.orders {
+  background: var(--color-info-light);
+}
+.kpi-icon.users {
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+}
+.kpi-icon.products {
+  background: var(--color-warning-light);
+}
 
 .kpi-trend {
   display: flex;
@@ -867,14 +898,22 @@ ul {
 
 .bar-fill {
   width: 100%;
-  background: linear-gradient(180deg, var(--color-teal), var(--color-teal-light));
+  background: linear-gradient(
+    180deg,
+    var(--color-teal),
+    var(--color-teal-light)
+  );
   border-radius: var(--border-radius-sm) var(--border-radius-sm) 0 0;
   transition: all var(--transition-base);
   position: relative;
 }
 
 .bar:hover .bar-fill {
-  background: linear-gradient(180deg, var(--color-teal-hover), var(--color-teal));
+  background: linear-gradient(
+    180deg,
+    var(--color-teal-hover),
+    var(--color-teal)
+  );
 }
 
 .bar::after {
@@ -1031,7 +1070,7 @@ ul {
 .customer-avatar {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, var(--color-teal-pale), #C8EDE8);
+  background: linear-gradient(135deg, var(--color-teal-pale), #c8ede8);
   border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
@@ -1127,7 +1166,7 @@ ul {
 .product-rank {
   width: 28px;
   height: 28px;
-  background: linear-gradient(135deg, var(--color-gold-pale), #FDEFC7);
+  background: linear-gradient(135deg, var(--color-gold-pale), #fdefc7);
   border-radius: var(--border-radius-full);
   display: flex;
   align-items: center;
@@ -1141,7 +1180,7 @@ ul {
 .product-thumb {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, var(--color-teal-pale), #C8EDE8);
+  background: linear-gradient(135deg, var(--color-teal-pale), #c8ede8);
   border-radius: var(--border-radius-md);
   display: flex;
   align-items: center;
@@ -1191,13 +1230,13 @@ ul {
 .customer-avatar.vip {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, var(--color-gold-pale), #FDEFC7);
+  background: linear-gradient(135deg, var(--color-gold-pale), #fdefc7);
   border: 2px solid var(--color-gold);
 }
 
 .vip-badge {
   padding: 4px 10px;
-  background: linear-gradient(135deg, var(--color-gold), #E6C052);
+  background: linear-gradient(135deg, var(--color-gold), #e6c052);
   color: var(--color-text-white);
   border-radius: var(--border-radius-full);
   font-size: var(--font-size-xs);
@@ -1289,7 +1328,9 @@ ul {
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.5s var(--transition-base), transform 0.5s var(--transition-base);
+  transition:
+    opacity 0.5s var(--transition-base),
+    transform 0.5s var(--transition-base);
 }
 
 .reveal.visible {
@@ -1334,12 +1375,21 @@ ul {
 }
 
 @keyframes toastIn {
-  from { opacity: 0; transform: translateY(16px) scale(0.9); }
-  to { opacity: 1; transform: none scale(1); }
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: none scale(1);
+  }
 }
 
 @keyframes toastOut {
-  to { opacity: 0; transform: translateY(10px) scale(0.9); }
+  to {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
 }
 
 /* ═══════════════════════════════════════════

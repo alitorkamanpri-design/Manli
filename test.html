@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه تست — مانلی شاپ</title>
+    <style>
+      body {
+        font-family: "Vazirmatn", sans-serif;
+        background: linear-gradient(135deg, #fafafa, #f5f5f5);
+        color: #1a1a2e;
+        padding: 40px 20px;
+        margin: 0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+        color: #2c9b8a;
+        margin-bottom: 40px;
+        font-size: 32px;
+      }
+      .test-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .test-card {
+        background: white;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+      .test-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+      .test-card a {
+        display: inline-block;
+        margin-top: 16px;
+        padding: 12px 24px;
+        background: #2c9b8a;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+      .test-card a:hover {
+        background: #247a6c;
+        transform: translateY(-2px);
+      }
+      .test-card h2 {
+        color: #2c9b8a;
+        margin: 0 0 10px 0;
+        font-size: 20px;
+      }
+      .test-card p {
+        color: #6b7280;
+        font-size: 14px;
+        margin: 0 0 16px 0;
+        line-height: 1.6;
+      }
+      .test-icon {
+        font-size: 40px;
+        margin-bottom: 12px;
+      }
+      .info-box {
+        background: #e0f5f2;
+        border: 2px solid #2c9b8a;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 30px;
+        color: #247a6c;
+      }
+      .info-box h3 {
+        margin-top: 0;
+        color: #2c9b8a;
+      }
+      .info-box ul {
+        margin: 10px 0;
+        padding-right: 20px;
+      }
+      .info-box li {
+        margin: 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧪 صفحه تست مانلی شاپ</h1>
+
+      <div class="info-box">
+        <h3>📋 اطلاعات مهم:</h3>
+        <ul>
+          <li>
+            <strong>برای ورود مشتری:</strong> هر ایمیل یا شماره موبایل معتبری
+            استفاده کنید
+          </li>
+          <li>
+            <strong>برای ورود مدیر:</strong> ایمیل "admin@manli.com" یا شماره
+            "۰۹۰۰۰۰۰۰۰۰۰" استفاده کنید
+          </li>
+          <li><strong>رمز عبور:</strong> هر رمزی که حداقل ۶ کاراکتر باشد</li>
+          <li>
+            <strong>تمام صفحات:</strong> ریسپانسیو برای موبایل، تبلت و دسکتاپ
+          </li>
+        </ul>
+      </div>
+
+      <div class="test-grid">
+        <div class="test-card">
+          <div class="test-icon">🏠</div>
+          <h2>صفحه اصلی</h2>
+          <p>
+            صفحه اصلی فروشگاه با لیست محصولات، دسته‌بندی‌ها و پیشنهادهای ویژه
+          </p>
+          <a href="index.html">مشاهده صفحه</a>
+        </div>
+
+        <div class="test-card">
+          <div class="test-icon">👤</div>
+          <h2>ورود و ثبت‌نام</h2>
+          <p>فرم ورود و ثبت‌نام جدید با اعتبارسنجی کامل و طراحی مدرن</p>
+          <a href="auth.html">مشاهده صفحه</a>
+        </div>
+
+        <div class="test-card">
+          <div class="test-icon">👩‍💻</div>
+          <h2>داشبورد مشتری</h2>
+          <p>پنل مشتری برای مشاهده سفارشات، علاقه‌مندی‌ها و امتیازات</p>
+          <a href="Dasbord.html">مشاهده صفحه</a>
+        </div>
+
+        <div class="test-card">
+          <div class="test-icon">⚙️</div>
+          <h2>داشبورد مدیر</h2>
+          <p>پنل مدیریت برای مدیریت محصولات و سفارشات</p>
+          <a href="Admin.html">مشاهده صفحه</a>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <h3>✅ چک‌لیست تست:</h3>
+        <ul>
+          <li>✓ فرم ورود و ثبت‌نام عمل می‌کند</li>
+          <li>✓ اعتبارسنجی فرم‌ها صحیح است</li>
+          <li>✓ لینک‌های ناوبری درست است</li>
+          <li>✓ صفحات برای موبایل بهینه شده‌اند</li>
+          <li>✓ صفحات برای تبلت بهینه شده‌اند</li>
+          <li>✓ دکمه خروج کار می‌کند</li>
+          <li>✓ طراحی و رنگ‌ها یکنواخت هستند</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
