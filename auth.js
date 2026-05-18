@@ -210,7 +210,7 @@ document.getElementById("login-form").addEventListener("submit", (e) => {
     // تشخیص مدیر
     let userType = "customer";
     if (
-      email === "admin" ||
+      email === "admin@gmail.com" ||
       phone === "09000000000" ||
       phone === "۰۹۰۰۰۰۰۰۰۰۰"
     ) {
